@@ -29,3 +29,14 @@ dtypes_to_cast = {
     "management_commission": "float64",
     "action": object,
 }
+
+COLUMNS_TO_DROP = [
+    "Unnamed: 0",
+    "name",
+    "res_num",
+    "created",
+    "status",
+    "depart",
+    "guests",
+    "action",
+]
